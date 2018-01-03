@@ -5,7 +5,12 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #5a5a5a;
+  color: #280C4B;
+}
+
+footer {
+  text-align: center;
+  background-color: #00F2AA;
 }
 
 
