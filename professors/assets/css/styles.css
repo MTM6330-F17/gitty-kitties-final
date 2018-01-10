@@ -49,6 +49,46 @@
   line-height:1.45;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #555;
+  background-color: #5cb85c;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: #5cb85c;
+}
+
+div.container-fluid {
+  background-color: #280C4B;
+}
+
+.navbar-default .navbar-brand {
+  color: #eee;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #eee;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #00F2AA;
+}
+
+.top-logo {
+  float: left;
+  margin: 8px;
+}
+
+footer {
+  text-align: center;
+  background-color: #00F2AA;
+  padding: 20px;
+}
+
+footer div {
+  padding: 5px;
+}
+
 @media (min-width:768px) {
   .article-clean .text p {
     font-size:16px;

@@ -3,15 +3,70 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+
   color: #280C4B;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #555;
+  background-color: #5cb85c;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: #5cb85c;
+}
+
+div.container-fluid {
+  background-color: #280C4B;
+}
+
+.navbar-default .navbar-brand {
+  color: #eee;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #eee;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #00F2AA;
+}
+
+.top-logo {
+  float: left;
+  margin: 8px;
+}
+
+.img-container {
+  min-height: 400px;
+  background-image: url(../img/algonquincollege.jpg);
+  background-repeat: no-repeat;
+  background-size: 1800px 400px;
+  background-position: center top;
+  /*padding: 40px; (If don't want to set min-height or some image content is there) */
+}
+
+.marketing h2 {
+  font-weight: 400;
+  margin: 50px;
+}
+
+.col-md-4 {
+  text-align: center;
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
 }
 
 footer {
   text-align: center;
   background-color: #00F2AA;
   padding: 20px;
+}
+
+footer div {
+  padding: 5px;
 }
 
 
